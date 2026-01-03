@@ -1,0 +1,18 @@
+.recommendations {
+    padding-top: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 3%;
+    background-color: #419EBD;
+}
+
+.recommendations h1 {
+    letter-spacing: 10px;
+    color: #FFFFFF;
+}
+
+.recommendations .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

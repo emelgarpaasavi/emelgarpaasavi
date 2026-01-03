@@ -1,0 +1,70 @@
+.cta {
+    padding-top: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 3%;
+    background-color: #283A4E;
+}
+
+.cta h1 {
+    font-size: 128px;
+    margin: 2%;
+    color: #F7AD1A;
+}
+
+.icon_position {
+    display: flex;
+    justify-content: center;
+}
+
+.email_position {
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+}
+
+.email_position a {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+footer {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    margin-left: 50px;
+    font-weight: 200;
+}
+
+footer span {
+    color: #FFFFFF;
+    font-weight: 200;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 300px) {
+    .cta {
+        padding-top: 15%;
+    }
+    .cta h1 {
+        font-size: 100px;
+        font-weight: 800;
+        margin-top: -70px;
+        color: #F7AD1A;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .cta {
+        padding-top: 5%;
+    }
+    .cta h1 {
+        font-size: 128px;
+        margin: 2%;
+        color: #F7AD1A;
+    }
+}

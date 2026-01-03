@@ -1,0 +1,18 @@
+.projects {
+  padding-top: 5%;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 5%;
+}
+
+.projects h1 {
+  letter-spacing: 10px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 2%;
+}

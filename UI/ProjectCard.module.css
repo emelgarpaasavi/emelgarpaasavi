@@ -1,0 +1,136 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: box-shadow 0.25s;
+    animation: 2s slide-in forwards;
+    cursor: pointer;
+}
+
+/* stagger the card animations */
+.projects:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.projects:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.projects:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+.projects:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+@keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.projects .backdrop {
+    position: absolute;
+    background-color: rgba(20, 30, 45, 0.8);
+    margin-top: 10px;
+    width: 500px;
+    height: 350px;
+    border-radius: 30px;
+    display: none;
+}
+
+.projects:hover .card {
+    width: 500px;
+}
+
+.projects:hover .backdrop {
+    display: block;
+}
+
+.projects:hover .caption {
+    animation: 0.5s slide-out forwards;
+}
+
+@keyframes slide-out {
+    from {
+        transform: translateY(-15px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}
+
+.card {
+    position: relative;
+    box-shadow: 0 1px 4px 0 #040000;
+    transition: 0.3s;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 350px;
+    height: 350px;
+}
+
+.caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 350px;
+}
+
+.caption span {
+    display: inline-flex;
+    background-color: #E6E5E5;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.caption h2 {
+    text-shadow: #040000;
+    color: #E6E5E5;
+    font-size: 31px;
+    font-weight: 500;
+    margin: 0;
+    padding: 5px;
+}
+
+.icon {
+    display: flex;
+    justify-content: end;
+    margin: 5px;
+}
+
+.icon img {
+    width: 50px;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1400px) {
+    .card {
+        width: 450px;
+        height: 350px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1500px) {
+    .card {
+        width: 350px;
+        height: 350px;
+    }
+}

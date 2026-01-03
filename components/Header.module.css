@@ -1,0 +1,17 @@
+
+header.container {
+  /* background-color: #649CCF; */
+  padding-top: 3%;
+  padding-left: 7%;
+  padding-right: 7%;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  padding-left: 50px;
+  font-weight: 300;
+}
+

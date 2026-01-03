@@ -1,0 +1,29 @@
+.work_experience {
+    padding-top: 20%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 3%;
+    background-color: #9FE7F5;
+    margin-top: -15%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    position: relative;
+    z-index: -1;
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateY(200px);
+    } to {
+        transform: translateY(0);
+    }
+
+}
+
+.work_experience h1 {
+    letter-spacing: 10px;
+}
+
+.work_experience .container {
+    margin: 5%;
+}

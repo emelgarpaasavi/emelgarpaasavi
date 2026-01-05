@@ -1,6 +1,5 @@
 
 header.container {
-  /* background-color: #649CCF; */
   padding-top: 3%;
   padding-left: 7%;
   padding-right: 7%;
@@ -15,3 +14,55 @@ nav a {
   font-weight: 300;
 }
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 300px) {
+    .menu_icon {
+        display: flex;
+        cursor: pointer;
+    }
+
+    .menu_dropdown {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 90vw;
+      background-color: #283A4E;
+      animation: slide-in 0.1s ease-in-out forwards;
+    }
+
+    .menu_position {
+      z-index: 2;
+      position: absolute;
+      margin-left: 5%;
+    }
+
+    @keyframes slide-in {
+      from {
+        transform: translateY(-3px);
+      }
+      to {
+        transform: translateY(0px);
+      }
+    }
+
+    .menu_dropdown a {
+      z-index: 11;
+      margin-right: 5%;
+      margin: 2%;
+    }
+
+    .menu {
+      display: none;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1100px) {
+    .menu_icon, .menu_dropdown {
+      display: none;
+    }
+
+    .menu {
+      display: flex;
+    }
+}

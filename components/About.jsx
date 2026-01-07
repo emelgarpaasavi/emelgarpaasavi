@@ -7,7 +7,15 @@ export default function About() {
       <div className={classes.container}>
         <div className={classes.image_container}>
           <img src={aboutMeImage} alt="An image of Emelgar sitting"></img>
-          <button>Download Resume</button>
+          <button>
+            <a
+              href="https://drive.google.com/file/d/1O7KvJL3cr5CIdS0sN20eqsp-KZK608C4/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Download Resume
+            </a>
+          </button>
         </div>
         <div className={classes.text_container}>
           <h1>

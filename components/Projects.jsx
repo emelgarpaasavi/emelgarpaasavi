@@ -10,7 +10,7 @@ export default function Projects() {
   const { ref, inView } = useInView();
 
   const eCommerceTools = ["React", "Next.js", "CSS", "MongoDB"];
-  const itineraryPlannerTools = ["React", "Node.js", "CSS", "Redux"];
+  const itineraryPlannerTools = ["React", "Node.js", "CSS", "Redux", "MUI"];
   const interactiveTheatreTools = ["React", "Motion", "Tailwind CSS"];
   const webDesignTools = ["Figma", "Webflow", "Web Design"];
 

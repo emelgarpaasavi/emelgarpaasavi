@@ -13,7 +13,15 @@ export default function Hero() {
             A programmer, creative and data analyst. I enjoy turning code into
             meaningful and visually rich experiences.
           </p>
-          <button>Download Resume</button>
+          <button>
+            <a
+              href="https://drive.google.com/file/d/1O7KvJL3cr5CIdS0sN20eqsp-KZK608C4/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Download Resume
+            </a>
+          </button>
         </div>
         <div>
           <img

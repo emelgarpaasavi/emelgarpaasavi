@@ -55,6 +55,16 @@ button a {
     color: #040000;
 }
 
+.github {
+    margin-top: 10px;
+    border-color: #F4F7FC;
+    background-color: #649CCF;
+}
+
+.github a {
+    color: #F4F7FC;
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 300px) {
     .hero h1 {

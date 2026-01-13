@@ -22,6 +22,15 @@ export default function Hero() {
               Download Resume
             </a>
           </button>
+          <button className={classes.github}>
+            <a
+              href="https://github.com/emelgarpaasavi"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Github
+            </a>
+          </button>
         </div>
         <div>
           <img

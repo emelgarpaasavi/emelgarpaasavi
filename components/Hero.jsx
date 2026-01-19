@@ -11,11 +11,12 @@ export default function Hero() {
           <h1>Hello! I&apos;m Emelgar</h1>
           <p>
             A programmer, creative and data analyst. I enjoy turning code into
-            meaningful and visually rich experiences.
+            meaningful and visually rich experiences. I analyze data to understand how it 
+            might provide useful insights to the problem being assessed.
           </p>
           <button>
             <a
-              href="https://drive.google.com/file/d/1O7KvJL3cr5CIdS0sN20eqsp-KZK608C4/view?usp=sharing"
+              href="https://drive.google.com/file/d/1H8sSQvcwlQWIl58adcYOp58O3foipb3B/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >

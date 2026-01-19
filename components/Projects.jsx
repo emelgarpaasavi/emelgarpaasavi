@@ -1,6 +1,7 @@
 import Card from "../UI/ProjectCard";
 import classes from "./Projects.module.css";
 import { useInView } from "react-intersection-observer";
+import dataAnalytics from "../src/assets/Project Screenshots/Data Analytics.jpg";
 import eCommerceApp from "../src/assets/Project Screenshots/Cozy Ember Online Store.png";
 import travelItineraryPlanner from "../src/assets/Project Screenshots/Travel Itinerary App.png";
 import interactiveTheatre from "../src/assets/Project Screenshots/Interactive Theatre.png";
@@ -9,6 +10,7 @@ import webDesign from "../src/assets/Project Screenshots/Team App.png";
 export default function Projects() {
   const { ref, inView } = useInView();
 
+  const dataAnalyticsTools = ["Pandas", "Numpy", "SQL", "Tensorflow", "Selenium"];
   const eCommerceTools = ["React", "Next.js", "CSS", "MongoDB"];
   const itineraryPlannerTools = ["React", "Node.js", "CSS", "Redux", "MUI"];
   const interactiveTheatreTools = ["React", "Motion", "Tailwind CSS"];
@@ -20,6 +22,12 @@ export default function Projects() {
 
       {inView && (
         <div className={classes.cards}>
+          <Card
+            link="https://github.com/emelgarpaasavi/Portfolio"
+            title="Data Analytics"
+            tools={dataAnalyticsTools}
+            screenshot={dataAnalytics}
+          />
           <Card
             link="https://cozy-ember.vercel.app/"
             title="E-Commerce Web App"

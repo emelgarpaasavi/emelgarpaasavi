@@ -10,9 +10,9 @@ export default function Hero() {
         <div className={classes.text_container}>
           <h1>Hello! I&apos;m Emelgar</h1>
           <p>
-            A programmer, creative and data analyst. I enjoy turning code into
-            meaningful and visually rich experiences. I analyze data to understand how it 
-            might provide useful insights to the problem being assessed.
+            A programmer and data analyst who transforms code and data into meaningful, 
+            visually engaging insights, building analytics and automation that help 
+            businesses make smarter, data-driven decisions.
           </p>
           <button>
             <a

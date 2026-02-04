@@ -23,7 +23,7 @@ export default function Projects() {
       {inView && (
         <div className={classes.cards}>
           <Card
-            link="https://github.com/emelgarpaasavi/Portfolio"
+            link="https://github.com/emelgarpaasavi/Data-Analysis-Portfolio"
             title="Data Analytics"
             tools={dataAnalyticsTools}
             screenshot={dataAnalytics}
